@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Consórcio Rech</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../css/cabecalho.css">
+        <link rel="stylesheet" href="../css/cadastro.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black">
+        <script src="../js/cadastro.js"></script>
+        <script src="../js/cliente.js"></script>
+    </head>
+    <body>
+        <div class="cabeçalho">
+            <div class="logoEmpresa">
+                <p class="logoEmpresa">Consórcio Rech</p>
+            </div>
+            <div>
+                <ul class="menu">
+                    <li class="opcaoMenu"><a href="../index.html" class="opcaoMenu">Home</a></li>
+                    <li class="opcaoMenu"><a href="" class="opcaoMenu">Consórcios</a></li>
+                    <li class="opcaoMenu"><a href="" class="opcaoMenu">Endereço</a></li>
+                    <li class="opcaoMenu"><a href="" class="opcaoMenu">Faturas</a></li>
+                    <li class="opcaoMenu"><a href="" class="opcaoMenu">Cadastro/Login</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div id="cadastroCliente" class="formulario">
+                <div class="divFormularioUm">
+                    <label>Nome:</label><br>
+                    <input name="nome" id="nome" type="text" maxlength="90" placeholder="Ex.: Consórcio Rech" class="campoFormulario">
+                    <br><br>
+                    <label>Cpf:</label><br>
+                    <input name="cpf" id="cpf" type="text" maxlength="11" placeholder="Ex.: 11122233344" class="campoFormulario">
+                    <br><br>
+                    <label>Email:</label><br>
+                    <input name="email" id="email" type="email" maxlength="120" placeholder="Ex.: consorciorech@gmail.com" class="campoFormulario">
+                    <br><br>
+                    <label>Senha:</label><br>
+                    <input name="senha" id="senha" type="password" maxlength="30" class="campoFormulario" placeholder="Ex.: Senha12345">
+                </div>
+                <div class="divFormularioDois">
+                    <label>CEP:</label><br>
+                    <input name="cep" id="cep" type="text" maxlength="8" placeholder="Ex.: 12345678" class="campoFormulario">
+                    <br><br>
+                    <label>Número da residência:</label><br>
+                    <input name="numeroCasa" id="numeroCasa" type="number" maxlength="5" placeholder="Ex.: 120" class="campoFormulario">
+                    <br><br>
+                    <label>Complemento:</label><br>
+                    <input name="complemento" id="complemento" type="text" maxlength="50" placeholder="Ex.: Casa de cor rosa" class="campoFormulario">
+                    <br><br>
+                    <label>Confirmar senha:</label><br>
+                    <input name="senhaValidacao" id="senhaValidacao" type="password" maxlength="30" class="campoFormulario" placeholder="Ex.: Senha12345">
+                </div>
+                <div class="erroFormulario" id="erroMenssagem">
+                </div>
+                <div class="cadastroConcluido" id="cadastroConcluido">
+                </div>
+                <button class="submit" onClick="validaDados()">Cadastrar</button>
+            </div>
+            <button class="login" onClick="telaLogin()">Já é cadastrado ?</button>
+        </div>
+    </body>
+</html>

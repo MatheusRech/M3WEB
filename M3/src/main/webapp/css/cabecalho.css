@@ -1,0 +1,51 @@
+/* 
+    Created on : 10/12/2020, 16:30:44
+    Author     : Matheus
+*/
+
+/* LOGO */
+
+.logoEmpresa{
+    background-color: #0075bd;
+    border-radius: 15px 50px;
+    width: 92%;
+    height: 13vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+p.logoEmpresa{
+    text-align: center;
+    font-family: Archivo Black;
+    font-size: 9vw;
+    text-shadow: 0vw 0vw 1vw #000000;
+    color: white;
+}
+
+/* MENU */
+
+.menu{
+    background-color: #0075bd;
+    border-radius: 15px 15px;
+    width: 92%;
+    height: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    display:flex;  
+    list-style:none;
+}
+
+.opcaoMenu{
+    margin-top: 0.3vw;
+    font-family: Archivo Black;
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+li.opcaoMenu{
+    margin-right: 10%;
+    margin-left: 5%;
+}

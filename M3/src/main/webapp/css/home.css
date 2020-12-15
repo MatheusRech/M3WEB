@@ -1,0 +1,59 @@
+/* 
+    Created on : 10/12/2020, 11:14:30
+    Author     : Matheus
+*/
+
+body{
+    background-color: #326587;
+}
+
+.anuncios{
+    margin-top: 3vw;
+    width: 100%;
+    overflow: auto;
+}
+
+.titulo{
+    margin-left: 10vw;
+    font-family: Archivo Black;
+    font-size: 5vw;
+    color: #0075bd;
+    text-align: center;
+    text-shadow: 0vw 0vw 1vw #000000;
+}
+
+.propagandaLeft{
+    width: 100%;
+    margin-top: 120px;
+    font-family: Archivo Black;
+    font-size: 3vw;
+    color: #0075bd;
+    text-align: left;
+    text-shadow: 0vw 0vw 0.5vw #000000;
+    overflow: auto;
+}
+
+.propagandaRight{
+    width: 100%;
+    margin-top: 120px;
+    font-family: Archivo Black;
+    font-size: 3vw;
+    color: #0075bd;
+    text-align: right;
+    text-shadow: 0vw 0vw 0.5vw #000000;
+    overflow: auto;
+}
+
+.imgPropagandaLeft{
+    float: left;
+    width: auto;
+    max-width: 400px;
+    height: auto;
+}
+
+.imgPropagandaRight{
+    float: right;
+    width: auto;
+    max-width: 400px;
+    height: auto;
+}

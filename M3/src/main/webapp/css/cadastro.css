@@ -1,0 +1,102 @@
+/* 
+    Created on : 10/12/2020, 16:42:55
+    Author     : Matheus
+*/
+
+body{
+    background-color: #326587;
+}
+
+label{
+    font-family: Archivo Black;
+    font-size: 2.3vw;
+    color: white;
+    margin-top: 180px;
+}
+
+.divFormularioUm {
+    width: 35%;
+    margin-left: 15%;
+    margin-right: 0px;
+    float: left;
+}
+
+.divFormularioDois {
+    width: 35%;
+    margin-right: 15%;
+    margin-left: 0px;
+    float: right;
+}
+
+.campoFormulario {
+    width: 80%;
+    height: 45px;
+    border-width: 0px;
+    border-radius: 15px 15px;
+    font-family: Archivo Black;
+    color: #757575;
+}
+
+.formulario{
+    width: 100%;
+    height: auto;
+}
+
+.submit{
+    width: 63%;
+    height: 45px;
+    border-width: 0px;
+    border-radius: 15px 15px;
+    font-family: Archivo Black;
+    color: #757575;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.login{
+    width: 63%;
+    height: 45px;
+    border-width: 0px;
+    border-radius: 15px 15px;
+    font-family: Archivo Black;
+    color: #757575;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.campoFormulario:focus, .login:focus, .submit:focus {
+    outline: none;
+}
+
+.erroFormulario{
+    color: #db4d4d;
+    width: 70%;
+    height: auto;
+    font-family: Archivo Black;
+    font-size: 2vw;
+    margin-left: 15%;
+    margin-top: 1vw;
+}
+
+a.erroFormulario{
+    width: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+cadastroConcluido{
+    color: #65a624;
+    width: 70%;
+    height: auto;
+    font-family: Archivo Black;
+    font-size: 2vw;
+    margin-left: 15%;
+    margin-top: 1vw;
+}
+
+a.cadastroConcluido{
+    width: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+}

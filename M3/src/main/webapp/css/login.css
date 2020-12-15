@@ -1,0 +1,68 @@
+/* 
+    Created on : 13/12/2020, 15:42:13
+    Author     : Matheus
+*/
+
+body{
+    background-color: #326587;
+}
+
+.formulario{
+    width: 100%;
+    height: auto;
+}
+
+input.formulario {
+    width: 30%;
+    height: 45px;
+    border-width: 0px;
+    border-radius: 15px 15px;
+    margin-left: 33%;
+    margin-top: 10px;
+    font-family: Archivo Black;
+    color: #757575;
+}
+
+label.formulario{
+    margin-left: 33%;
+    margin-top: 10px;
+    font-family: Archivo Black;
+    font-size: 1.8vw;
+    color: white;
+}
+
+.submit{
+    width: 30%;
+    height: 45px;
+    border-width: 0px;
+    border-radius: 15px 15px;
+    font-family: Archivo Black;
+    color: #757575;
+    margin-left: 33%;
+    margin-top: 3%;
+}
+
+.submit:focus{
+    outline: none;
+    background-color: #e4ebe5;
+}
+
+.formulario:focus {
+    outline: none;
+}
+
+.erroFormulario{
+    color: #db4d4d;
+    width: auto;
+    height: auto;
+    font-family: Archivo Black;
+    font-size: 2vw;
+    margin-left: 33%;
+    margin-top: 1vw;
+}
+
+a.erroFormulario{
+    width: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+}
